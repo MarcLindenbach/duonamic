@@ -1,0 +1,33 @@
+.navbar-light {
+  background-color: white;
+}
+
+.navbar-light .container {
+  z-index: 2 !important;
+  align-items: flex-end;
+}
+
+.navbar-light .drop-shadow {
+  position: absolute;
+  height: 1.5rem;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to bottom, #aaa 0%, #fff 100%);
+  z-index: 1;
+}
+
+.navbar-light a {
+  font-size: 1.7rem;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.navbar-light .navbar-nav {
+  width: 100%;
+  justify-content: space-around;
+}
+
+.navbar-light .navbar-nav li {
+  flex: 1;
+}
