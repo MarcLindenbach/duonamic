@@ -3,7 +3,7 @@
 }
 
 .navbar-light .container {
-  z-index: 2 !important;
+  z-index: 2;
   align-items: flex-end;
 }
 
@@ -31,3 +31,34 @@
 .navbar-light .navbar-nav li {
   flex: 1;
 }
+
+.nav-item {
+  position: relative;
+}
+
+.nav-item .green-bar {
+  position: absolute;
+  height: .7rem;
+  left: 4rem;
+  right: -2rem;
+  bottom: 1.5rem;
+  background-color: #C0EF00 !important;
+  z-index: -1;
+}
+
+@media (max-width: 991px) { 
+  .navbar-light a {
+    text-align: left;
+  }
+  .nav-item .green-bar {
+    left: 0;
+    right: 0;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) { 
+  .nav-item .green-bar {
+    left: 2rem;
+  }
+}
+
