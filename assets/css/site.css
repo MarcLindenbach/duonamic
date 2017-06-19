@@ -5,6 +5,7 @@ html {
 
 body {
   margin-bottom: 120px;
+  font-family: 'Roboto', sans-serif !important;
 }
 
 .navbar-light {
