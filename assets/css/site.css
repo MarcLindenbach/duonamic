@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  margin-bottom: 150px;
+  margin-bottom: 120px;
   font-family: 'Roboto', sans-serif !important;
 }
 
@@ -72,7 +72,7 @@ body {
 }
 
 .footer .row {
-  margin-bottom: 0;
+  padding: 0;
 }
 
 .footer a {
@@ -98,18 +98,18 @@ body {
 }
 
 .row {
-  margin-bottom: 2rem;
+  padding-top: 2rem;
 }
 
 .black-box {
   height: 30rem;
   width: 100%;
   background-color: black;
+  margin-bottom: 2rem;
 }
 
 h1 {
   font-weight: bold;
-  font-size: 4rem;
 }
 
 h1 a {
@@ -129,6 +129,41 @@ hr {
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   margin-bottom: 1rem
 }
+
+.hoverable:hover {
+  cursor: pointer;
+}
+
+.right-hr {
+  border-right: 1px solid #C0EF00;
+}
+
+.white-background {
+  background-color: #fff;
+}
+
+.container.dark {
+  background-color: #555;
+  color: white;
+}
+
+.container.dark a {
+  color: #bbb;
+}
+
+.container.dark .dark-gray-text {
+  color: #bbb;
+}
+
+.container.dark a:hover {
+  color: #C0EF00;
+  text-decoration: none;
+}
+
+.row.dark:last-child {
+  padding-bottom: 2rem;
+}
+
 
 @media (max-width: 991px) { 
   body {
