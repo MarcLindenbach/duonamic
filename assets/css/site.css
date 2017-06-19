@@ -164,6 +164,34 @@ hr {
   padding-bottom: 2rem;
 }
 
+.buy-button {
+  color: black;
+  display: block;
+  padding: 1rem 0 .5rem 1rem;
+}
+
+.buy-button p {
+  color: #888;
+}
+
+.buy-button:hover {
+  text-decoration: none;
+  background: linear-gradient(to right, #C0EF00 0%, #C0EF00 120px, #fff 31px);
+}
+
+.buy-button.small:hover {
+  text-decoration: none;
+  background: linear-gradient(to right, #C0EF00 0%, #C0EF00 80px, #fff 31px);
+}
+
+.buy-button:hover h1 {
+  color: black;
+}
+
+.buy-button:hover p {
+  color: #888;
+}
+
 
 @media (max-width: 991px) { 
   body {
