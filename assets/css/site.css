@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  margin-bottom: 120px;
+  margin-bottom: 150px;
   font-family: 'Roboto', sans-serif !important;
 }
 
@@ -71,6 +71,10 @@ body {
   padding-top: 1rem;
 }
 
+.footer .row {
+  margin-bottom: 0;
+}
+
 .footer a {
   color: white;
   padding: 0 .5rem;
@@ -91,6 +95,39 @@ body {
 
 .social-media a {
   font-size: 4rem;
+}
+
+.row {
+  margin-bottom: 2rem;
+}
+
+.black-box {
+  height: 30rem;
+  width: 100%;
+  background-color: black;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+h1 a {
+  color: black;
+}
+
+h1 a:hover {
+  color: #C0EF00;
+  text-decoration: none;
+}
+
+hr {
+  border-top: 1rem solid #C0EF00;
+}
+
+.dropshadow {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  margin-bottom: 1rem
 }
 
 @media (max-width: 991px) { 
