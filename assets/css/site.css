@@ -168,7 +168,7 @@ hr {
 .buy-button {
   color: black;
   display: block;
-  padding: 1rem 0 .5rem 1rem;
+  padding: 1rem 0 .3rem 1rem;
   margin-left: -1rem;
 }
 
@@ -188,10 +188,20 @@ hr {
 
 .buy-button:hover h1 {
   color: black;
+  font-style: italic;
 }
 
 .buy-button:hover p {
   color: #888;
+}
+
+.green-link {
+  color: black;
+}
+
+.green-link:hover {
+  color: #C0EF00;
+  text-decoration: none;
 }
 
 
