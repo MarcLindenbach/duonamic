@@ -1,5 +1,5 @@
 @font-face {
-  font-family: FreeSans;
+  font-family: FreeSans,Arial,Helvetica,sans-serif;
   src: url(../font/FreeSans.ttf);
 }
 
@@ -12,6 +12,10 @@ body {
   margin-bottom: 120px;
   font-family: FreeSans, sans-serif !important;
 }
+
+.arrow { font-family: Consolas;}
+.boldfont { font-weight: bold}
+
 
 .navbar-light {
   background-color: white;
@@ -106,6 +110,8 @@ body {
 .row {
   padding-top: 2rem;
 }
+
+.paddingtop6 {padding-top: 6rem;}
 
 .black-box {
   height: 30rem;
