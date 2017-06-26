@@ -152,6 +152,10 @@ hr {
   border-top: .8rem solid #C0EF00;
 }
 
+hr.gray {
+  border-top-color: #ccc;
+}
+
 p {
   font-size: 1.6rem;
 }
@@ -171,6 +175,7 @@ p {
 
 .white-background {
   background-color: #fff;
+  padding-bottom: 2rem;
 }
 
 .container.dark {
@@ -204,6 +209,10 @@ p {
 
 .buy-button p {
   color: #888;
+}
+
+.buy-button h1 {
+  font-size: 2rem;
 }
 
 .buy-button:hover {
